@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+  <style>
+    *{
+      font-family: 'PT Sans', sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <div style="max-width: 650px; margin: 0 auto">
+    <div style="position: relative">
+      <img style="display: block; width: 100%; height: auto" height="290"
+        src="https://cdn.cogoport.io/cms-prod/cogo_public/vault/original/tracking_lead.png" />
+    </div>
+    <div style="padding: 20px">
+      <p>Hello User,</p>
+      <p>I'm Cogo - Your Personal Assistant</p>
+
+      <p style="
+        font-size: 16px;
+        width: fit-content;
+        margin: auto;
+        margin-top: 20px;
+        ">
+        Check out the rate trends in market from <strong>{{origin_port_name}}</strong> to <strong>{{destination_port_name}}</strong>
+      </p>
+      <div style="border-radius: 9px;
+        background: #FFF;
+        width: fit-content;
+        margin: auto;
+        margin-top: 20px;
+        box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.18);
+        padding: 20px;">
+        <p style="
+        font-size: 22px;
+        font-weight: 700;
+        width: fit-content;
+        margin: auto;
+        ">
+          {{rate_previous}} <span> → </span>  {{rate_next}}
+        </p>
+      </div>
+
+    </div>
+    <div class="logo">
+      <img 
+        height="290"
+        src="https://cdn.cogoport.io/cms-prod/cogo_public/vault/original/cogoport-newlogo.svg"
+        style="
+          display: block; 
+          width: 25%; 
+          height: auto;
+          margin: auto;
+          margin-bottom: 12px;
+          "  
+      />
+    </div>
+    <div style="background-color: #fbdc00; padding: 4px; text-align: center">
+      <p>© 2023 Cogoport Pvt. Ltd. All rights reserved.</p>
+    </div>
+    <div
+    style="
+          width: fit-content;
+          margin: auto;
+          margin-bottom: 12px;
+          "  
+    >
+      <p style="padding: 10px 0">
+        If you would like to unsubscribe and stop receiving useful information, 
+        <a href="{{unsubscribe}}" style="color: #6591FF;">click here</a>
+      </p>
+    </div>
+  </div>
+</body>
+
+</html>
